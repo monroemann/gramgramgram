@@ -55,3 +55,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
 end
+
+#Add Twitter Bootstrap 4
+gem 'bootstrap', '~> 4.0.0.alpha6'
+
