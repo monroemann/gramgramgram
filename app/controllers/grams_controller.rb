@@ -10,6 +10,10 @@ class GramsController < ApplicationController
 	def index
 	end
 
+	def show
+    @gram = Gram.find(params[:id])
+  end
+
 
 #In order to save the gram 
 #into our database add a call to the Gram.create method
