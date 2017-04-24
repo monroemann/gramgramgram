@@ -59,3 +59,8 @@ end
 #Add Twitter Bootstrap 4
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
+#Add Simple Form
+gem 'simple_form'
+
+# Add Devise Gem
+gem 'devise','>=3.2.4'
