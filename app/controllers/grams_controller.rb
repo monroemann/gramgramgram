@@ -4,10 +4,10 @@ class GramsController < ApplicationController
 
 	def new
 		@gram = Gram.new
-		 	
 	end
 
 	def index
+		@grams = Gram.all
 	end
 
 	def show
@@ -62,7 +62,7 @@ private
 # Whenever we have a form, we need to pull 
 # the submitted form data from the params
 	def gram_params
-		params.require(:gram).permit(:message)
+		params.require(:gram).permit(:message, :picture)
 	end
 
 	 def render_not_found(status=:not_found)

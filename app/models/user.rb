@@ -6,4 +6,7 @@ class User < ApplicationRecord
 
 
   has_many :grams
+
+  mount_uploader :picture, PictureUploader
+  
 end
