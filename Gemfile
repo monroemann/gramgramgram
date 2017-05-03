@@ -68,3 +68,9 @@ gem 'devise','>=3.2.4'
 
 # Add CarrierWave Gem
 gem 'carrierwave', '~> 1.0'
+
+# Add Figaro Gem to Allow Use of Carrierwave
+gem 'figaro'
+
+# Add Fog Gem to Allow Use of Carrierwave
+gem "fog-aws"
