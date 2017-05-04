@@ -1,6 +1,7 @@
 # config/initializers/carrierwave.rb
 
 CarrierWave.configure do |config|
+
   config.fog_provider = 'fog/aws'                        # required
   config.fog_credentials = {
     provider:              'AWS',                        # required
